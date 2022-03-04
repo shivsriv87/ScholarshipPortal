@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.navbar{
+    text-align: center;
+    background-image: linear-gradient(rgb(105, 216, 105) ,rgb(47, 163, 47));
+    padding: 15px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    justify-content: center;
+    padding: 4px;
+}
+.nav a{
+    color: #000;
+    margin-left: 25px;
+    text-decoration: none;
+    padding: 5px;
+}
+.nav a:hover{
+    border-bottom: 2px solid #000;
+}
+.active{
+    border-bottom: 2px solid #000;
+}
