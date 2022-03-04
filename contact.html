@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/contact.css">
+    <script src="js/contact.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>ScholarShip Portal</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Recent news</a></li>
+                <li><a href="#">National ScholarShip</a></li>
+                <li><a href="#">International Scholarship</a></li>
+                <li><a class="active" href="#">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="contact">
+        <div class="info">
+            <h1>Send your query</h1>
+            <form action="#">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Your email">
+                <textarea name="" placeholder="send message/query" cols="50" rows="5"></textarea>
+                <button class="btn">Submit</button>
+                <button class="btn">Reset</button>
+            </form>
+        </div>
+        <div id="map"></div>
+
+    </section>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+</body>
+</html>
