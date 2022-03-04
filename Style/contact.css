@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.navbar{
+    text-align: center;
+    background-image: linear-gradient(burlywood ,rgb(179, 126, 57));
+    padding: 15px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    justify-content: center;
+    padding: 4px;
+}
+.nav a{
+    color: #000;
+    margin-left: 25px;
+    text-decoration: none;
+    padding: 5px;
+}
+.nav a:hover{
+    border-bottom: 2px solid #000;
+}
+.active{
+    border-bottom: 2px solid #000;
+}
+.contact{
+    display: flex;
+}
+.info{
+    border: 2px solid #000;
+    width: 600px;
+    text-align: center;
+}
+
+.info input{
+    display: block;
+    padding: 6px 100px;
+    margin: 20px;
+    margin-left: 125px;
+    /* justify-content: center; */
+    text-align: center;
+    
+}
+textarea{
+    display: block;
+    margin-left: 125px;
+    padding: 8px;
+}
+.btn{
+    padding: 5px 20px;
+    border: none;
+    background-color: burlywood;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: rgb(160, 129, 88);
+
+}
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
